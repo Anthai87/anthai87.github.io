@@ -30,9 +30,7 @@ jobs:
         working-directory: ./
         run: npm test
       - name: deploy
-        uses: crazy-max/ghaction-github-pages@v1
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          target_branch: gh-pages
-          build_dire: /build
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_ACCESS_TOKEN }}
+          branch: gh-pages
+          folder: /build
