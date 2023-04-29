@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.125f8271.css",
-    "main.js": "/static/js/main.5a065ee7.js",
-    "index.html": "/index.html",
-    "main.125f8271.css.map": "/static/css/main.125f8271.css.map",
-    "main.5a065ee7.js.map": "/static/js/main.5a065ee7.js.map"
+    "main.css": "/zee_web/static/css/main.125f8271.css",
+    "main.js": "/zee_web/static/js/main.5a065ee7.js",
+    "index.html": "/zee_web/index.html",
+    "main.125f8271.css.map": "/zee_web/static/css/main.125f8271.css.map",
+    "main.5a065ee7.js.map": "/zee_web/static/js/main.5a065ee7.js.map"
   },
   "entrypoints": [
     "static/css/main.125f8271.css",
