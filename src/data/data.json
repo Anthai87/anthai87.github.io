@@ -1,0 +1,288 @@
+[
+  {
+    "id": 1,
+    "brand": "The North Face",
+    "shortDesc": "1996 retro nuptse jacket unisex",
+    "longDesc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus fugit hic recusandae commodi in odio magnam velit eius, earum quam architecto at ipsum numquam? Neque cupitate error eius rerum culpa!",
+    "imageUrl": [
+      "https://images.pexels.com/photos/1926769/pexels-photo-1926769.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/1039518/pexels-photo-1039518.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/2905238/pexels-photo-2905238.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/1502216/pexels-photo-1502216.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/3731256/pexels-photo-3731256.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    ],
+
+    "price": "7,000.00",
+    "size": "34"
+  },
+  {
+    "id": 2,
+    "brand": "The North Face",
+    "shortDesc": "1996 retro nuptse jacket unisex",
+    "longDesc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus fugit hic recusandae commodi in odio magnam velit eius, earum quam architecto at ipsum numquam? Neque cupitate error eius rerum culpa!",
+    "imageUrl": [
+      "https://images.pexels.com/photos/2065195/pexels-photo-2065195.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/1039518/pexels-photo-1039518.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/2905238/pexels-photo-2905238.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/1502216/pexels-photo-1502216.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/3731256/pexels-photo-3731256.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    ],
+    "price": "1,300.00",
+    "size": "34"
+  },
+  {
+    "id": 3,
+    "brand": "The North Face",
+    "shortDesc": "1996 retro nuptse jacket unisex",
+    "longDesc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus fugit hic recusandae commodi in odio magnam velit eius, earum quam architecto at ipsum numquam? Neque cupitate error eius rerum culpa!",
+    "imageUrl": [
+      "https://images.pexels.com/photos/1021693/pexels-photo-1021693.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/1039518/pexels-photo-1039518.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/2905238/pexels-photo-2905238.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/1502216/pexels-photo-1502216.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/3731256/pexels-photo-3731256.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    ],
+    "price": "2,100.00",
+    "size": "34"
+  },
+  {
+    "id": 4,
+    "brand": "The North Face",
+    "shortDesc": "1996 retro nuptse jacket unisex",
+    "longDesc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus fugit hic recusandae commodi in odio magnam velit eius, earum quam architecto at ipsum numquam? Neque cupitate error eius rerum culpa!",
+    "imageUrl": [
+      "https://images.pexels.com/photos/1758144/pexels-photo-1758144.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/1039518/pexels-photo-1039518.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/2905238/pexels-photo-2905238.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/1502216/pexels-photo-1502216.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/3731256/pexels-photo-3731256.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    ],
+    "price": "600.00",
+    "size": "34"
+  },
+  {
+    "id": 5,
+    "brand": "The North Face",
+    "shortDesc": "1996 retro nuptse jacket unisex",
+    "longDesc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus fugit hic recusandae commodi in odio magnam velit eius, earum quam architecto at ipsum numquam? Neque cupitate error eius rerum culpa!",
+    "imageUrl": [
+      "https://images.pexels.com/photos/1021693/pexels-photo-1021693.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/1039518/pexels-photo-1039518.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/2905238/pexels-photo-2905238.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/1502216/pexels-photo-1502216.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/3731256/pexels-photo-3731256.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    ],
+    "price": "2,500.00",
+    "size": "34"
+  },
+  {
+    "id": 6,
+    "brand": "The North Face",
+    "shortDesc": "1996 retro nuptse jacket unisex",
+    "longDesc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus fugit hic recusandae commodi in odio magnam velit eius, earum quam architecto at ipsum numquam? Neque cupitate error eius rerum culpa!",
+    "imageUrl": [
+      "https://images.pexels.com/photos/6192404/pexels-photo-6192404.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/1039518/pexels-photo-1039518.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/2905238/pexels-photo-2905238.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/1502216/pexels-photo-1502216.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/3731256/pexels-photo-3731256.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    ],
+    "price": "300.00",
+    "size": "34"
+  },
+  {
+    "id": 7,
+    "brand": "The North Face",
+    "shortDesc": "1996 retro nuptse jacket unisex",
+    "longDesc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus fugit hic recusandae commodi in odio magnam velit eius, earum quam architecto at ipsum numquam? Neque cupitate error eius rerum culpa!",
+    "imageUrl": [
+      "https://images.pexels.com/photos/3097438/pexels-photo-3097438.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/1039518/pexels-photo-1039518.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/2905238/pexels-photo-2905238.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/1502216/pexels-photo-1502216.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/3731256/pexels-photo-3731256.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    ],
+    "price": "100.00",
+    "size": "34"
+  },
+  {
+    "id": 8,
+    "brand": "The North Face",
+    "shortDesc": "1996 retro nuptse jacket unisex",
+    "longDesc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus fugit hic recusandae commodi in odio magnam velit eius, earum quam architecto at ipsum numquam? Neque cupitate error eius rerum culpa!",
+    "imageUrl": [
+      "https://images.pexels.com/photos/16114695/pexels-photo-16114695.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/1039518/pexels-photo-1039518.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/2905238/pexels-photo-2905238.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/1502216/pexels-photo-1502216.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/3731256/pexels-photo-3731256.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    ],
+    "price": "100.00",
+    "size": "34"
+  },
+  {
+    "id": 9,
+    "brand": "The North Face",
+    "shortDesc": "1996 retro nuptse jacket unisex",
+    "longDesc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus fugit hic recusandae commodi in odio magnam velit eius, earum quam architecto at ipsum numquam? Neque cupitate error eius rerum culpa!",
+    "imageUrl": [
+      "https://images.pexels.com/photos/16113075/pexels-photo-16113075.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/1039518/pexels-photo-1039518.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/2905238/pexels-photo-2905238.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/1502216/pexels-photo-1502216.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/3731256/pexels-photo-3731256.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    ],
+    "price": "6,000.00",
+    "size": "32"
+  },
+  {
+    "id": 10,
+    "brand": "The North Face",
+    "shortDesc": "1996 retro nuptse jacket unisex",
+    "longDesc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus fugit hic recusandae commodi in odio magnam velit eius, earum quam architecto at ipsum numquam? Neque cupitate error eius rerum culpa!",
+    "imageUrl": [
+      "https://images.pexels.com/photos/16117058/pexels-photo-16117058.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/1039518/pexels-photo-1039518.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/2905238/pexels-photo-2905238.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/1502216/pexels-photo-1502216.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/3731256/pexels-photo-3731256.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    ],
+    "price": "6,000.00",
+    "size": "38"
+  },
+  {
+    "id": 11,
+    "brand": "The North Face",
+    "shortDesc": "1996 retro nuptse jacket unisex",
+    "longDesc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus fugit hic recusandae commodi in odio magnam velit eius, earum quam architecto at ipsum numquam? Neque cupitate error eius rerum culpa!",
+    "imageUrl": [
+      "https://images.pexels.com/photos/16135739/pexels-photo-16135739.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/1039518/pexels-photo-1039518.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/2905238/pexels-photo-2905238.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/1502216/pexels-photo-1502216.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/3731256/pexels-photo-3731256.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    ],
+    "price": "6,000.00",
+    "size": "40"
+  },
+  {
+    "id": 12,
+    "brand": "The North Face",
+    "shortDesc": "1996 retro nuptse jacket unisex",
+    "longDesc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus fugit hic recusandae commodi in odio magnam velit eius, earum quam architecto at ipsum numquam? Neque cupitate error eius rerum culpa!",
+    "imageUrl": [
+      "https://images.pexels.com/photos/16137402/pexels-photo-16137402.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/1039518/pexels-photo-1039518.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/2905238/pexels-photo-2905238.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/1502216/pexels-photo-1502216.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/3731256/pexels-photo-3731256.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    ],
+    "price": "6,000.00",
+    "size": "34"
+  },
+  {
+    "id": 13,
+    "brand": "The North Face",
+    "shortDesc": "1996 retro nuptse jacket unisex",
+    "longDesc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus fugit hic recusandae commodi in odio magnam velit eius, earum quam architecto at ipsum numquam? Neque cupiditate error eius rerum culpa!",
+    "imageUrl": [
+      "https://images.pexels.com/photos/16135739/pexels-photo-16135739.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/1039518/pexels-photo-1039518.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/2905238/pexels-photo-2905238.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/1502216/pexels-photo-1502216.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/3731256/pexels-photo-3731256.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    ],
+    "price": "6,000.00",
+    "size": "34"
+  },
+  {
+    "id": 14,
+    "brand": "The North Face",
+    "shortDesc": "1996 retro nuptse jacket unisex",
+    "longDesc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus fugit hic recusandae commodi in odio magnam velit eius, earum quam architecto at ipsum numquam? Neque cupiditate error eius rerum culpa!",
+    "imageUrl": [
+      "https://images.pexels.com/photos/16137402/pexels-photo-16137402.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/1039518/pexels-photo-1039518.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/2905238/pexels-photo-2905238.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/1502216/pexels-photo-1502216.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/3731256/pexels-photo-3731256.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    ],
+    "price": "6,000.00",
+    "size": "34"
+  },
+  {
+    "id": 15,
+    "brand": "The North Face",
+    "shortDesc": "1996 retro nuptse jacket unisex",
+    "longDesc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus fugit hic recusandae commodi in odio magnam velit eius, earum quam architecto at ipsum numquam? Neque cupiditate error eius rerum culpa!",
+    "imageUrl": [
+      "https://images.pexels.com/photos/2002717/pexels-photo-2002717.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/1039518/pexels-photo-1039518.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/2905238/pexels-photo-2905238.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/1502216/pexels-photo-1502216.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/3731256/pexels-photo-3731256.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    ],
+    "price": "6,000.00",
+    "size": "34"
+  },
+  {
+    "id": 16,
+    "brand": "The North Face",
+    "shortDesc": "1996 retro nuptse jacket unisex",
+    "longDesc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus fugit hic recusandae commodi in odio magnam velit eius, earum quam architecto at ipsum numquam? Neque cupiditate error eius rerum culpa!",
+    "imageUrl": [
+      "https://images.pexels.com/photos/1039518/pexels-photo-1039518.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/1039518/pexels-photo-1039518.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/2905238/pexels-photo-2905238.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/1502216/pexels-photo-1502216.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/3731256/pexels-photo-3731256.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    ],
+    "price": "6,000.00",
+    "size": "34"
+  },
+  {
+    "id": 17,
+    "brand": "The North Face",
+    "shortDesc": "1996 retro nuptse jacket unisex",
+    "longDesc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus fugit hic recusandae commodi in odio magnam velit eius, earum quam architecto at ipsum numquam? Neque cupiditate error eius rerum culpa!",
+    "imageUrl": [
+      "https://images.pexels.com/photos/4352249/pexels-photo-4352249.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/1039518/pexels-photo-1039518.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/2905238/pexels-photo-2905238.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/1502216/pexels-photo-1502216.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/3731256/pexels-photo-3731256.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    ],
+    "price": "6,000.00",
+    "size": "34"
+  },
+  {
+    "id": 18,
+    "brand": "The North Face",
+    "shortDesc": "1996 retro nuptse jacket unisex",
+    "longDesc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus fugit hic recusandae commodi in odio magnam velit eius, earum quam architecto at ipsum numquam? Neque cupiditate error eius rerum culpa!",
+    "imageUrl": [
+      "https://images.pexels.com/photos/1374910/pexels-photo-1374910.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/1039518/pexels-photo-1039518.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/2905238/pexels-photo-2905238.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/1502216/pexels-photo-1502216.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/3731256/pexels-photo-3731256.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    ],
+    "price": "6,000.00",
+    "size": "34"
+  },
+  {
+    "id": 19,
+    "brand": "The North Face",
+    "shortDesc": "1996 retro nuptse jacket unisex",
+    "longDesc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus fugit hic recusandae commodi in odio magnam velit eius, earum quam architecto at ipsum numquam? Neque cupiditate error eius rerum culpa!",
+    "imageUrl": [
+      "https://images.pexels.com/photos/1375736/pexels-photo-1375736.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/1039518/pexels-photo-1039518.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/2905238/pexels-photo-2905238.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/1502216/pexels-photo-1502216.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://images.pexels.com/photos/3731256/pexels-photo-3731256.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    ],
+    "price": "6,000.00",
+    "size": "34"
+  }
+]

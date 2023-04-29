@@ -1,0 +1,42 @@
+.error-404 {
+  padding: 140px 0;
+}
+
+.error-404 .error-title {
+  font-size: 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0;
+  position: relative;
+  padding-left: 40px;
+}
+
+.error-404 .page-title {
+  line-height: 1;
+  margin: 25px 0;
+  font-size: 3.85rem;
+  font-weight: 500;
+}
+
+.error-404 .page-content {
+  font-size: 24px;
+  font-size: 1.225rem;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.55556;
+}
+
+.error-404 .page-content .button {
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  display: inline-block;
+  background-color: #161619;
+  cursor: pointer;
+  transition: 0.4s;
+  line-height: 60px;
+  padding: 0 80px;
+}

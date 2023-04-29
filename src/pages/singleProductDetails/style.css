@@ -1,0 +1,79 @@
+.small-img-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.small-img-col {
+  flex-basis: 24%;
+}
+.small-img-col img {
+  cursor: pointer;
+}
+
+#section .product__details__widget {
+  padding-top: 35px;
+}
+
+#section .product__details__widget ul {
+  display: block;
+  list-style-type: disc;
+}
+
+#section .product__details__widget ul li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+#section .product__details__widget ul li span {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(17, 17, 17);
+  width: 150px;
+  float: left;
+}
+
+#section .product__details__widget ul li .stock__checkbox {
+  overflow: hidden;
+}
+#section .product__details__widget ul li .stock__checkbox label {
+  display: block;
+  padding-left: 20px;
+  font-size: 14px;
+  color: rgb(102, 102, 102);
+  position: relative;
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+}
+#section .product__details__widget ul li .stock__checkbox label input {
+  position: absolute;
+  visibility: hidden;
+}
+
+#section .product__details__widget ul li .stock__checkbox label .checkmark {
+  position: absolute;
+  left: 0px;
+  top: 5px;
+  height: 10px;
+  width: 10px;
+  border: 1px solid rgb(68, 68, 68);
+  border-radius: 2px;
+}
+
+#section .product__details__widget ul li .size__btn label.active {
+  color: rgb(202, 21, 21);
+}
+
+#section .product__details__widget ul li .size__btn label {
+  font-size: 14px;
+  color: rgb(102, 102, 102);
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-right: 20px;
+  display: inline-block;
+  margin-bottom: 0px;
+}
+#section .product__details__widget ul li .size__btn label input {
+  position: absolute;
+  visibility: hidden;
+}

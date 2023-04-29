@@ -1,0 +1,139 @@
+@media screen and (min-width: 991px) {
+  .site-content {
+    width: auto;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .site-content {
+    width: 750px;
+  }
+}
+
+.site-content {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.elementor-element .elementor-widget-container {
+  margin: 0px 0px 30px 0px;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s,
+    transform var(--e-transform-transition-duration, 0.4s);
+  width: 100%;
+}
+
+.konte-heading-title {
+  line-height: 1;
+}
+
+.konte-heading-title--default {
+  line-height: 1.667em;
+  font-size: 1.5rem;
+}
+
+h4 {
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.p1 {
+  font-size: 1.05rem;
+  font-weight: 400;
+  line-height: 1.55556;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+  -webkit-font-smoothing: antialiased;
+}
+.elementor-section {
+  position: relative;
+}
+
+section {
+  display: block;
+}
+
+@media screen and (max-width: 767px) {
+  .elementor-container {
+    max-width: 767px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .elementor-container {
+    max-width: 1024px;
+    flex-wrap: wrap;
+  }
+  .elementor-section {
+    flex-wrap: wrap;
+  }
+}
+
+.elementor-section .elementor-container {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+figure {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  overflow: hidden;
+}
+figure:hover + span {
+  bottom: -36px;
+  opacity: 1;
+}
+
+.elementor-section .site-content .hover01 figure img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: transform 0.9s ease;
+  transition: transform 0.9s ease;
+}
+.elementor-section .site-content .hover01 figure:hover img {
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+}
+
+.elementor-column {
+  position: relative;
+  min-height: 1px;
+  display: flex;
+}
+
+.elementor-element-populated {
+  padding: 0;
+}
+.elementor-widget-wrap {
+  display: flex;
+  position: relative;
+  width: 100%;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.elementor-widget-container {
+  margin: 4px 0px 20px 0px;
+}
+
+.elementor-widget-container {
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s,
+    transform var(--e-transform-transition-duration, 0.4s);
+}
+
+.span-b {
+  font-size: 14px;
+  white-space: pre-wrap;
+}
+
+.p2 {
+  font-size: 16px;
+}
