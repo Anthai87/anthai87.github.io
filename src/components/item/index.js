@@ -6,7 +6,7 @@ const Item = ({ item }) => {
   return (
     <div
       className="product text-center col-lg-3 col-md-4 col-12"
-      onClick={() => navigate(`/product/details/${item.id}`)}
+      onClick={() => navigate(`/zee_web/product/details/${item.id}`)}
     >
       <img
         src={item.imageUrl}
