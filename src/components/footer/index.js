@@ -48,7 +48,7 @@ export const Footer = () => {
       <div className="container text-center pt-3">
         <div className="copyright">
           Copyright &copy; {new Date().getFullYear()} All Rights Reserved by
-          <strong> Zeecycled</strong>
+          <strong> Zeecycle</strong>
         </div>
 
         {isVisibile && (
