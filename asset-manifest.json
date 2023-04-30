@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/zee_web/static/css/main.125f8271.css",
-    "main.js": "/zee_web/static/js/main.c88db3b2.js",
+    "main.js": "/zee_web/static/js/main.6e16c834.js",
     "index.html": "/zee_web/index.html",
     "main.125f8271.css.map": "/zee_web/static/css/main.125f8271.css.map",
-    "main.c88db3b2.js.map": "/zee_web/static/js/main.c88db3b2.js.map"
+    "main.6e16c834.js.map": "/zee_web/static/js/main.6e16c834.js.map"
   },
   "entrypoints": [
     "static/css/main.125f8271.css",
-    "static/js/main.c88db3b2.js"
+    "static/js/main.6e16c834.js"
   ]
 }
