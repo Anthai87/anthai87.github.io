@@ -188,7 +188,7 @@ export const UnderFooter = () => {
                 Copyright &copy; {new Date().getFullYear()} All Rights Reserved
                 by | This website is made with{" "}
                 <i class="fa fa-heart" aria-hidden="true"></i> by Anthony
-                Haidari
+                Haidariano
               </p>
             </div>
             <div className="go-top">
