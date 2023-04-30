@@ -13,7 +13,7 @@ test("Test Contact ref and name", () => {
 
   const linkElement = screen.getByText(/Contact/i);
   expect(linkElement).toBeInTheDocument();
-  expect(linkElement).toHaveAttribute("href", "/contact");
+  expect(linkElement).toHaveAttribute("href", "/zee_web/contact");
 });
 
 test("Test About ref and name", () => {
@@ -25,5 +25,5 @@ test("Test About ref and name", () => {
 
   const linkElement = screen.getByText(/About/i);
   expect(linkElement).toBeInTheDocument();
-  expect(linkElement).toHaveAttribute("href", "/about");
+  expect(linkElement).toHaveAttribute("href", "/zee_web/about");
 });
