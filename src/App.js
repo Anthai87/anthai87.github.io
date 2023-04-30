@@ -26,12 +26,16 @@ function App() {
           <ScrollToTop />
           <Navbar />
           <Routes>
-            <Route exact path="/" element={<Home />} />
-            <Route path="/products" element={<Products />} />
-            <Route path="/product/details/:id" element={<ProductDetails />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/about" element={<About />} />
-            <Route path="*" element={<NotFound />} />
+            <Route path="/zee_web" exact Component={<Home />} />
+            <Route path="/products" exact Component={<Products />} />
+            <Route
+              path="/product/details/:id"
+              exact
+              Component={<ProductDetails />}
+            />
+            <Route path="/contact" exact Component={<Contact />} />
+            <Route path="/about" exact Component={<About />} />
+            <Route path="*" exact Component={<NotFound />} />
           </Routes>
         </BrowserRouter>
       </div>
