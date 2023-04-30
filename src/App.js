@@ -26,7 +26,7 @@ function App() {
           <ScrollToTop />
           <Navbar />
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/zee_web" element={<Home />} />
             <Route path="/products" element={<Products />} />
             <Route path="/product/details/:id" element={<ProductDetails />} />
             <Route path="/contact" element={<Contact />} />
