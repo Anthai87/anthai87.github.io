@@ -7,7 +7,7 @@ const Navbar = () => {
     <>
       <nav className="navbar navbar-expand-lg bg-white navbar-light py-3 fixed-top">
         <div className="container">
-          <Link to="/" className="navbar-brand">
+          <Link to="/zee_web" className="navbar-brand">
             <img src="./logo-v1.png" alt="" className="img-fluid" />
           </Link>
 
@@ -40,7 +40,7 @@ const Navbar = () => {
                 </a>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li className="nav-item">
-                    <Link className="dropdown-item" to="/products">
+                    <Link className="dropdown-item" to="/zee_web/products">
                       Fashion
                     </Link>
                   </li>
@@ -55,12 +55,12 @@ const Navbar = () => {
               {/* Dropdown */}
 
               <li className="nav-item">
-                <Link className="nav-link" to="/contact">
+                <Link className="nav-link" to="/zee_web/contact">
                   Contact
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/about">
+                <Link className="nav-link" to="/zee_web/about">
                   About Us
                 </Link>
               </li>
