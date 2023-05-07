@@ -1,9 +1,32 @@
-import React from "react";
+import React, { useRef } from "react";
 import { UnderFooter } from "../../components/underFooter";
 import "./style.css";
 import { PathContact } from "../../components/path";
+import emailjs from "@emailjs/browser";
 
 export const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_22nc36h",
+        "template_ojz69ns",
+        form.current,
+        "BmwNBy4xcHRKxbgY0"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          console.log("message sent");
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
   return (
     <>
       <PathContact />
@@ -45,12 +68,12 @@ export const Contact = () => {
                 <div className="contact__form">
                   <h5>SEND MESSAGE</h5>
 
-                  <form action="#">
-                    <input type="text" placeholder="Name" />
-                    <input type="text" placeholder="Email" />
-                    <input type="text" placeholder="Subject" />
-                    <textarea placeholder="Message"></textarea>
-                    <button type="submit" className="site-btn">
+                  <form ref={form} onSubmit={sendEmail}>
+                    <input type="text" placeholder="Name" name="user_name" />
+                    <input type="text" placeholder="Email" name="user_email" />
+                    <input type="text" placeholder="Subject" name="subject" />
+                    <textarea placeholder="Message" name="message"></textarea>
+                    <button type="submit" value="Send" className="site-btn">
                       send message
                     </button>
                   </form>
@@ -73,140 +96,6 @@ export const Contact = () => {
           </div>
         </div>
       </section>
-
-      {/* <section className="p-5">
-        <div className="container">
-          <div className="col-md">
-            <h1 className="text-center text-uppercase mb-4">Contact us</h1>
-          </div>
-        </div>
-      </section>
-      <section className="p-2">
-        <div className="container">
-          <div className="col-md">
-            <h1 className="mb-4">Contact Information</h1>
-          </div>
-        </div>
-      </section>
-      <section className="p-5">
-        <div className="container">
-          <div className="col-md">
-            <h3 className="mb-4 text-uppercase">Copenhagen</h3>
-          </div>
-          <div className="d-flex-row">
-            <div className="col-md-8 col-lg-8 col-xl-8 mx-auto mb-md-0 mb-4">
-              <p className="paragrafs">
-                <i className="fas fa-home me-3"></i>Tjørnegade 3, 2.TV, 2200
-                København N
-              </p>
-              <p className="paragrafs">
-                <i className="fas fa-envelope me-3"></i>info@example.com
-              </p>
-              <p className="paragrafs">
-                <i className="fas fa-phone me-3"></i>+45 93939393
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="p-5">
-        <div className="container">
-          <div className="col-md">
-            <h3 className="mb-4 text-uppercase">Social Media</h3>
-          </div>
-          <div class="d-flex-row ">
-            <div class="col-md-8 col-lg-8 col-xl-8 mx-auto mb-md-0 mb-4">
-              <p className="paragrafs">
-                <a href="#!" className="me-4 text-reset">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-              </p>
-              <p className="paragrafs">
-                <a href="#!" className="me-4 text-reset">
-                  <i class="fab fa-instagram"></i>
-                </a>
-              </p>
-              <p className="paragrafs">
-                <a href="#!" className="me-4 text-reset">
-                  <i class="fab fa-linkedin"></i>
-                </a>
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="p-5">
-        <div className="container">
-          <h2 className="mb-4 text-uppercase fw-bold">Send us a message</h2>
-          <form action="" className="row g-4 needs-validation">
-            <div className="col-md-6">
-              <label className="form-label" for="firstName">
-                First Name
-              </label>
-              <input
-                type="text"
-                className="form-control"
-                id="firstName"
-                required
-              />
-            </div>
-            <div className="col-md-6">
-              <label className="form-label" for="lastName">
-                Last Name
-              </label>
-              <input
-                type="text"
-                className="form-control"
-                id="lastName"
-                required
-              />
-            </div>
-            <div className="col-md-8">
-              <label for="emailinfo" className="form-label">
-                E-mail
-              </label>
-              <input
-                type="email"
-                className="form-control"
-                id="emailinfo"
-                required
-              />
-            </div>
-            <div className="col-md-4">
-              <label for="phoneNumber" className="form-label">
-                Phone Number
-              </label>
-              <input
-                type="text"
-                className="form-control"
-                id="phoneNumber"
-                placeholder="+45 35 35 35 35"
-              />
-            </div>
-            <div className="col-md-12">
-              <label for="comments" className="form-label">
-                Comments, questions?
-              </label>
-              <textarea
-                id="comments"
-                cols="30"
-                rows="3"
-                className="form-control"
-                required
-              ></textarea>
-            </div>
-
-            <div className="col-md-6 mx-auto pt-4 pb-5">
-              <button
-                type="submit"
-                className="btn btn-dark w-100 text-uppercase"
-              >
-                submit
-              </button>
-            </div>
-          </form>
-        </div>
-      </section> */}
       <section className="">
         <UnderFooter />
       </section>

@@ -8,7 +8,13 @@ const Navbar = () => {
       <nav className="navbar navbar-expand-lg bg-white navbar-light py-3 fixed-top">
         <div className="container">
           <Link to="/zee_web" className="navbar-brand">
-            <img src="./logo-v1.png" alt="" className="img-fluid" />
+            <img
+              src="./logo-v1.png"
+              alt=""
+              className="img-fluid d-inline-block align-text-top"
+              width="70"
+              height="40"
+            />
           </Link>
 
           <button
@@ -24,36 +30,16 @@ const Navbar = () => {
 
           <div className="collapse navbar-collapse" id="navbar">
             <ul className="navbar-nav ms-auto">
-              {/* ****  Dropdown  **** */}
-
-              <li className="nav-item dropdown">
-                <a
-                  className="nav-link"
-                  href="#!"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Products
-                  <i className="fas fa-angle-down"></i>
-                </a>
-                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li className="nav-item">
-                    <Link className="dropdown-item" to="/zee_web/products">
-                      Fashion
-                    </Link>
-                  </li>
-                  <li>
-                    <Link className="dropdown-item" to="#!">
-                      Sorteringsposer
-                    </Link>
-                  </li>
-                </ul>
+              <li className="nav-item">
+                <Link className="nav-link" to="/zee_web/products">
+                  Fashion
+                </Link>
               </li>
-
-              {/* Dropdown */}
-
+              <li>
+                <Link className="nav-link" to="#!">
+                  Sorteringsposer
+                </Link>
+              </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/zee_web/contact">
                   Contact
@@ -64,9 +50,6 @@ const Navbar = () => {
                   About Us
                 </Link>
               </li>
-
-              {/* ****  Dropdown  **** */}
-
               <li className="nav-item dropdown">
                 <a
                   className="nav-link"
@@ -98,7 +81,6 @@ const Navbar = () => {
                   </li>
                 </ul>
               </li>
-
               {/* Dropdown */}
             </ul>
           </div>
