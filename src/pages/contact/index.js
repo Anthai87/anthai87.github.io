@@ -69,11 +69,35 @@ export const Contact = () => {
                 <div className="contact__form">
                   <h5>SEND MESSAGE</h5>
 
-                  <form ref={form} onSubmit={sendEmail}>
-                    <input type="text" placeholder="Name" name="user_name" />
-                    <input type="text" placeholder="Email" name="user_email" />
-                    <input type="text" placeholder="Subject" name="subject" />
-                    <textarea placeholder="Message" name="message"></textarea>
+                  <form
+                    ref={form}
+                    onSubmit={sendEmail}
+                    className="needs-validation"
+                    novalidate
+                  >
+                    <input
+                      type="text"
+                      placeholder="Name"
+                      name="user_name"
+                      required
+                    />
+                    <input
+                      type="text"
+                      placeholder="Email"
+                      name="user_email"
+                      required
+                    />
+                    <input
+                      type="text"
+                      placeholder="Subject"
+                      name="subject"
+                      required
+                    />
+                    <textarea
+                      placeholder="Message"
+                      name="message"
+                      required
+                    ></textarea>
                     <button type="submit" value="Send" className="site-btn">
                       send message
                     </button>
