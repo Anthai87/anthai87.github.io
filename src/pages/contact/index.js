@@ -20,12 +20,13 @@ export const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
-          console.log("message sent");
+          alert(result.text + ", message sent");
         },
         (error) => {
           console.log(error.text);
         }
       );
+    e.target.reset();
   };
   return (
     <>
