@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
+import { hover } from "@testing-library/user-event/dist/hover";
 
 const Navbar = () => {
   return (
@@ -90,12 +91,15 @@ const Navbar = () => {
         className="offcanvas offcanvas-start"
         id="offcanvasExample"
         aria-labelledby="offcanvasExampleLabel"
-        tabindex="-1"
       >
         <div className="offcanvas-header">
-          <h5 className="offcanvas-title" id="offcanvasExampleLabel">
-            Zeecycled
-          </h5>
+          <img
+            src="./logo-v1.png"
+            alt=""
+            className="img-fluid d-inline-block align-text-top"
+            width="70"
+            height="40"
+          />
           <button
             type="button"
             className="btn-close text-reset"
@@ -104,67 +108,65 @@ const Navbar = () => {
           ></button>
         </div>
         <div className="offcanvas-body">
-          <nav className="slicknav_nav">
-            <ul>
-              <li>
-                <Link className="text-link" to="/zee_web">
-                  Home
-                </Link>
-              </li>
-              <li>
-                <Link className="text-link" to="/zee_web/products">
-                  Fashion
-                </Link>
-              </li>
-              <li>
-                <Link className="text-link" to="#!">
-                  Sorteringsposer
-                </Link>
-              </li>
-              <li>
-                <Link className="text-link" to="/zee_web/contact">
-                  Contact
-                </Link>
-              </li>
-              <li>
-                <Link className="text-link" to="/zee_web/about">
-                  About
-                </Link>
-              </li>
-              <div className="dropdownmenu">
-                <a
-                  href="/#"
-                  style={{ cursor: "pointer" }}
-                  className="text-link dropdown-toggle"
-                  id="dropdownMenuButton"
-                  data-bs-toggle="dropdown"
-                >
-                  Follow
-                </a>
-                <ul
-                  className="dropdown-menu"
-                  aria-labelledby="dropdownMenuButton"
-                >
-                  <li>
-                    <a
-                      className="dropdown-item"
-                      href="https://www.instagram.com/zeecycled/"
-                    >
-                      <i className="fab fa-instagram"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item"
-                      href="https://www.facebook.com/OpbrugGenbrug"
-                    >
-                      <i className="fab fa-facebook"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </ul>
-          </nav>
+          <ul>
+            <li>
+              <Link className="text-link" to="/zee_web">
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link className="text-link" to="/zee_web/products">
+                Fashion
+              </Link>
+            </li>
+            <li>
+              <Link className="text-link" to="#!">
+                Sorteringsposer
+              </Link>
+            </li>
+            <li>
+              <Link className="text-link" to="/zee_web/contact">
+                Contact
+              </Link>
+            </li>
+            <li>
+              <Link className="text-link" to="/zee_web/about">
+                About
+              </Link>
+            </li>
+            <div className="dropdownmenu">
+              <a
+                href="/#"
+                style={{ cursor: "pointer", padding: "10px 10px" }}
+                className="text-link dropdown-toggle"
+                id="dropdownMenuButton"
+                data-bs-toggle="dropdown"
+              >
+                Follow
+              </a>
+              <ul
+                className="dropdown-menu"
+                aria-labelledby="dropdownMenuButton"
+              >
+                <li>
+                  <a
+                    className="dropdown-item"
+                    href="https://www.instagram.com/zeecycled/"
+                  >
+                    <i className="fab fa-instagram"></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://www.facebook.com/OpbrugGenbrug"
+                  >
+                    <i className="fab fa-facebook"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </ul>
         </div>
       </div>
     </>
