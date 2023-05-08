@@ -133,10 +133,10 @@ const Navbar = () => {
                 About
               </Link>
             </li>
-            <div className="dropdownmenu">
+            <div className="dropdownmenu" style={{ padding: "5px 10px" }}>
               <a
                 href="/#"
-                style={{ cursor: "pointer", padding: "10px 10px" }}
+                style={{ cursor: "pointer" }}
                 className="text-link dropdown-toggle"
                 id="dropdownMenuButton"
                 data-bs-toggle="dropdown"
