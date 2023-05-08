@@ -90,6 +90,7 @@ const Navbar = () => {
         className="offcanvas offcanvas-start"
         id="offcanvasExample"
         aria-labelledby="offcanvasExampleLabel"
+        tabindex="-1"
       >
         <div className="offcanvas-header">
           <h5 className="offcanvas-title" id="offcanvasExampleLabel">
