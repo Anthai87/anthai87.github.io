@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
-import { hover } from "@testing-library/user-event/dist/hover";
 
 const Navbar = () => {
   return (
@@ -137,7 +136,7 @@ const Navbar = () => {
             <div className="dropdownmenu">
               <a
                 href="/#"
-                style={{ cursor: "pointer" }}
+                style={{ cursor: "pointer", padding: "10px 10px" }}
                 className="text-link dropdown-toggle"
                 id="dropdownMenuButton"
                 data-bs-toggle="dropdown"
