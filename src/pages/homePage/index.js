@@ -154,7 +154,7 @@ const Home = () => {
           <div className="row g-5">
             <div className="col-md-6 col-lg-6">
               <div className="p-r-15-lg">
-                <h1 className="text-success">Sorteringssystemer</h1>
+                <h1 className="text-success">Sorting systems</h1>
                 <p className="lead my-4">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.

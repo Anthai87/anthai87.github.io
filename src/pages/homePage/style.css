@@ -199,6 +199,15 @@
   overflow: hidden;
   position: relative;
 }
+#id .single-new-arrival {
+  cursor: pointer;
+}
+#id .single-new-arrival:hover .popular-caption h3 {
+  text-decoration: underline;
+}
+#id .single-new-arrival:hover .popular-caption {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
 #id .popular-caption {
   border: 1px solid #f6f8fe;
   padding: 31px 0;
@@ -209,6 +218,7 @@
   color: #140c40;
   font-weight: 500;
   font-size: 15px;
+  font-size: 20px;
 }
 #id .popular-caption h3 a {
   font-weight: 500;
