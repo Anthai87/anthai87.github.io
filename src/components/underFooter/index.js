@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from "react";
 import "./style.css";
+import { useNavigate } from "react-router-dom";
 
 export const UnderFooter = () => {
   const [isVisibile, setIsVisible] = useState(false);
+  const navigate = useNavigate();
 
   const scrollToTop = () => {
     window.scrollTo({
@@ -26,96 +28,6 @@ export const UnderFooter = () => {
     };
   }, []);
   return (
-    // <section class="py-5 border-bottom">
-    //   <div class="container">
-    //     <div class="row g-4">
-    //       <div class="fooer-one col-lg-3 col-md-6 col-12">
-    //         <h4>Zeecycled A/S</h4>
-    //         <span>
-    //           Tjørnegade 3, 2.tv
-    //           <br />
-    //         </span>
-    //         <span>
-    //           2200 Københan N
-    //           <br />
-    //         </span>
-    //         <span>CVR 42423939</span>
-    //         <div className="pt-4">
-    //           <span>
-    //             info@zeecycled.com
-    //             <br />
-    //           </span>
-
-    //           <span>
-    //             +45 26 79 01 79
-    //             <br />
-    //           </span>
-    //         </div>
-    //       </div>
-    //       <div class="col-lg-3 col-md-6 col-12">
-    //         <div class="tex-dark">
-    //           <ul class="list-unstyled">
-    //             <li>
-    //               <a href="#" class="text-decoration-none text-dark">
-    //                 Concept
-    //               </a>
-    //             </li>
-    //             <li>
-    //               <a href="#" class="text-decoration-none text-dark">
-    //                 About Us
-    //               </a>
-    //             </li>
-    //             <li>
-    //               <a href="#" class="text-decoration-none text-dark">
-    //                 Service
-    //               </a>
-    //             </li>
-    //             <li>
-    //               <a href="#" class="text-decoration-none text-dark">
-    //                 Brand Shop
-    //               </a>
-    //             </li>
-    //           </ul>
-    //         </div>
-    //       </div>
-    //       <div class="col-lg-3 col-md-6 col-12">
-    //         <div>
-    //           <ul class="list-unstyled">
-    //             <li>
-    //               <a href="#" class="text-decoration-none text-dark">
-    //                 Help & Facts
-    //               </a>
-    //             </li>
-    //             <li>
-    //               <a href="#" class="text-decoration-none text-dark">
-    //                 Branding
-    //               </a>
-    //             </li>
-    //             <li>
-    //               <a href="#" class="text-decoration-none text-dark">
-    //                 Design
-    //               </a>
-    //             </li>
-    //             <li>
-    //               <a href="#" class="text-decoration-none text-dark">
-    //                 Materials
-    //               </a>
-    //             </li>
-    //           </ul>
-    //         </div>
-    //       </div>
-    //       <div class="col-lg-3 col-md-6 col-12">
-    //         <div>
-    //           <img
-    //             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEamvgWZmS_JU12LgO7MoNPg31rURnuwUfRw&usqp=CAU"
-    //             alt=""
-    //           />
-    //         </div>
-    //       </div>
-    //     </div>
-    //   </div>
-    // </section>
-
     <footer className="footer pt-5">
       <div className="row container mx-auto g-4">
         <div className="col-lg-4 col-md-6 col-sm-7">
@@ -129,7 +41,7 @@ export const UnderFooter = () => {
           <h5 className="pb-2 text-uppercase">Quick Links</h5>
           <ul className="list-unstyled">
             <li>
-              <a href="#!">About</a>
+              <a href="./zee_web/about">About</a>
             </li>
             <li>
               <a href="#!">Blogs</a>

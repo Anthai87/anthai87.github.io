@@ -45,8 +45,7 @@ const Home = () => {
                 <h5 className="animate__slideInDown">Shaping a new tomorrow</h5>
                 <p>
                   Zeecycled believes in a brighter tomorrow providing new
-                  business possibilities and specialized medicaments for a
-                  variety of illnesses
+                  opportunities and possibilities for outfits
                 </p>
               </div>
             </div>
@@ -59,12 +58,9 @@ const Home = () => {
               />
               <div className="carousel-caption">
                 <h5 className="animate__fadeInDown">
-                  Buy Local From Danish distributors
+                  Buy and sell second hand
                 </h5>
-                <p>
-                  Find Goverment approved distributors based in and around
-                  Copenhagen
-                </p>
+                <p>Find great new & second hand collections</p>
               </div>
             </div>
             <div className="carousel-item">
@@ -75,14 +71,10 @@ const Home = () => {
                 height="100%"
               />
               <div className="carousel-caption">
-                <h5 className="animate__fadeInDown">
-                  Award-winning strains grown by Cannabis experts
-                </h5>
+                <h5 className="animate__fadeInDown">Stay trended</h5>
                 <p>
-                  Our partners provide potent, organic strains approved by
-                  Danish authorities. All strains have been perfected by years
-                  of research conducted by experts from across the
-                  pharmaceutical industry
+                  Green focus is central in our work. Find second hand and be
+                  the new way of Fashioninsta
                 </p>
               </div>
             </div>

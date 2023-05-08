@@ -53,7 +53,7 @@ const Navbar = () => {
               <li className="nav-item dropdown">
                 <a
                   className="nav-link"
-                  href="#!"
+                  href={() => false}
                   id="navbarDropdown"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -133,7 +133,7 @@ const Navbar = () => {
               </li>
               <div class="dropdownmenu">
                 <a
-                  href="#"
+                  href={() => false}
                   style={{ cursor: "pointer" }}
                   class="text-link dropdown-toggle"
                   id="dropdownMenuButton"
