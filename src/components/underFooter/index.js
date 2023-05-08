@@ -1,10 +1,8 @@
 import React, { useEffect, useState } from "react";
 import "./style.css";
-import { useNavigate } from "react-router-dom";
 
 export const UnderFooter = () => {
   const [isVisibile, setIsVisible] = useState(false);
-  const navigate = useNavigate();
 
   const scrollToTop = () => {
     window.scrollTo({
