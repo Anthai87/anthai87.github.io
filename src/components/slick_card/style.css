@@ -1,3 +1,6 @@
+.card {
+  overflow: hidden;
+}
 .product-images {
   width: 100%;
   height: 450px;
@@ -10,17 +13,17 @@
   top: 0;
   left: 0;
   z-index: 99;
-  object-fit: contain;
+  object-fit: cover;
 }
 .product-images:hover .hover-img {
   display: inline;
-  object-fit: contain;
+  object-fit: cover;
 }
 .product-images img {
   width: 100%;
   height: 100%;
   position: absolute;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 /* .product-images {

@@ -20,8 +20,8 @@ const Navbar = () => {
           <button
             className="navbar-toggler"
             type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbar"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasExample"
           >
             <span>
               <i id="bar" className="fas fa-bars "></i>
@@ -30,7 +30,7 @@ const Navbar = () => {
 
           <div className="collapse navbar-collapse" id="navbar">
             <ul className="navbar-nav ms-auto">
-              <li className="nav-item">
+              <li>
                 <Link className="nav-link" to="/zee_web/products">
                   Fashion
                 </Link>
@@ -40,14 +40,14 @@ const Navbar = () => {
                   Sorteringsposer
                 </Link>
               </li>
-              <li className="nav-item">
+              <li>
                 <Link className="nav-link" to="/zee_web/contact">
                   Contact
                 </Link>
               </li>
-              <li className="nav-item">
+              <li>
                 <Link className="nav-link" to="/zee_web/about">
-                  About Us
+                  About
                 </Link>
               </li>
               <li className="nav-item dropdown">
@@ -59,7 +59,7 @@ const Navbar = () => {
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Follow Us
+                  Follow
                   <i className="fas fa-angle-down"></i>
                 </a>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -81,11 +81,89 @@ const Navbar = () => {
                   </li>
                 </ul>
               </li>
-              {/* Dropdown */}
             </ul>
           </div>
         </div>
       </nav>
+
+      <div
+        className="offcanvas offcanvas-start"
+        tabindex="-1"
+        id="offcanvasExample"
+        aria-labelledby="offcanvasExampleLabel"
+      >
+        <div className="offcanvas-header">
+          <h5 className="offcanvas-title" id="offcanvasExampleLabel">
+            Zeecycled
+          </h5>
+          <button
+            type="button"
+            className="btn-close text-reset"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body">
+          <nav className="slicknav_nav">
+            <ul>
+              <li>
+                <Link className="text-link" to="/zee_web">
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link className="text-link" to="/zee_web/products">
+                  Fashion
+                </Link>
+              </li>
+              <li>
+                <Link className="text-link" to="#!">
+                  Sorteringsposer
+                </Link>
+              </li>
+              <li>
+                <Link className="text-link" to="/zee_web/contact">
+                  Contact
+                </Link>
+              </li>
+              <li>
+                <Link className="text-link" to="/zee_web/about">
+                  About
+                </Link>
+              </li>
+              <div class="dropdownmenu">
+                <a
+                  href="#"
+                  style={{ cursor: "pointer" }}
+                  class="text-link dropdown-toggle"
+                  id="dropdownMenuButton"
+                  data-bs-toggle="dropdown"
+                >
+                  Follow
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://www.instagram.com/zeecycled/"
+                    >
+                      <i className="fab fa-instagram"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="https://www.facebook.com/OpbrugGenbrug"
+                    >
+                      <i className="fab fa-facebook"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </ul>
+          </nav>
+        </div>
+      </div>
     </>
   );
 };

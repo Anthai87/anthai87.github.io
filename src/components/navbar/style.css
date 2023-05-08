@@ -1,18 +1,28 @@
 .navbar {
-  font-size: 15px;
   top: 0;
   left: 0;
   background: #ffffff;
   box-shadow: 0 5px 10px rgba(91, 91, 91, 0.1);
   height: 80px;
+  padding: 30px 0 27px;
 }
 
 .navbar-light .navbar-nav .nav-link {
-  padding: 0 20px;
-  color: black;
-  position: relative;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #111111;
+  font-weight: 500;
   display: block;
+  padding: 2px 0;
+  position: relative;
 }
+.navbar-light ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 35px;
+  position: relative;
+}
+
 .navbar-light .navbar-nav .nav-item .nav-link i {
   color: #292621;
   margin-left: 4px;
@@ -45,7 +55,7 @@
 .nav-link::after {
   position: absolute;
   left: 0;
-  bottom: -4px;
+  bottom: 0px;
   width: 100%;
   height: 2px;
   background: #111111;
@@ -55,7 +65,7 @@
 }
 
 .nav-link:hover::after {
-  transform: scale(0.7);
+  transform: scale(1);
 }
 
 .navbar-light .navbar-toggler {
@@ -95,4 +105,21 @@
   #navbar > ul > li:nth-child(n) > a {
     padding: 10px 0;
   }
+}
+.slicknav_nav {
+  clear: both;
+  color: #fff;
+  margin: 0;
+  font-size: 0.875em;
+}
+
+.slicknav_nav ul {
+  margin: 0 0 0 20px;
+  list-style: none;
+}
+.slicknav_nav .text-link {
+  text-decoration: none;
+  padding: 5px 10px;
+  margin: 2px 5px;
+  color: #111111;
 }
