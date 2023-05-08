@@ -53,7 +53,7 @@ const Navbar = () => {
               <li className="nav-item dropdown">
                 <a
                   className="nav-link"
-                  href={() => false}
+                  href="#/"
                   id="navbarDropdown"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -133,18 +133,21 @@ const Navbar = () => {
               </li>
               <div class="dropdownmenu">
                 <a
-                  href={() => false}
+                  href="/#"
                   style={{ cursor: "pointer" }}
-                  class="text-link dropdown-toggle"
+                  className="text-link dropdown-toggle"
                   id="dropdownMenuButton"
                   data-bs-toggle="dropdown"
                 >
                   Follow
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <ul
+                  className="dropdown-menu"
+                  aria-labelledby="dropdownMenuButton"
+                >
                   <li>
                     <a
-                      class="dropdown-item"
+                      className="dropdown-item"
                       href="https://www.instagram.com/zeecycled/"
                     >
                       <i className="fab fa-instagram"></i>
