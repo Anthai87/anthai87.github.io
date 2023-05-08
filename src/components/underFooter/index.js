@@ -39,7 +39,7 @@ export const UnderFooter = () => {
           <h5 className="pb-2 text-uppercase">Quick Links</h5>
           <ul className="list-unstyled">
             <li>
-              <a href="./zee_web/about">About</a>
+              <a href="#!">About</a>
             </li>
             <li>
               <a href="#!">Blogs</a>
@@ -76,17 +76,17 @@ export const UnderFooter = () => {
             </button>
           </form>
           <div className="footer__social">
-            <a href="#!" class="me-4">
-              <i class="fab fa-facebook-f"></i>
+            <a href="#!" className="me-4">
+              <i className="fab fa-facebook-f"></i>
             </a>
-            <a href="#!" class="me-4">
+            <a href="#!" className="me-4">
               <i class="fab fa-instagram"></i>
             </a>
-            <a href="#!" class="me-4">
+            <a href="#!" className="me-4">
               <i class="fab fa-linkedin"></i>
             </a>
-            <a href="#!" class="me-4">
-              <i class="fab fa-pinterest"></i>
+            <a href="#!" className="me-4">
+              <i className="fab fa-pinterest"></i>
             </a>
           </div>
         </div>
@@ -97,7 +97,7 @@ export const UnderFooter = () => {
                 {" "}
                 Copyright &copy; {new Date().getFullYear()} All Rights Reserved
                 by | This website is made with{" "}
-                <i class="fa fa-heart" aria-hidden="true"></i> by Anthony
+                <i className="fa fa-heart" aria-hidden="true"></i> by Anthony
                 Haidari
               </p>
             </div>

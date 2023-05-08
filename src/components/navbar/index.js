@@ -88,7 +88,6 @@ const Navbar = () => {
 
       <div
         className="offcanvas offcanvas-start"
-        tabindex="-1"
         id="offcanvasExample"
         aria-labelledby="offcanvasExampleLabel"
       >
@@ -103,7 +102,7 @@ const Navbar = () => {
             aria-label="Close"
           ></button>
         </div>
-        <div class="offcanvas-body">
+        <div className="offcanvas-body">
           <nav className="slicknav_nav">
             <ul>
               <li>
@@ -131,7 +130,7 @@ const Navbar = () => {
                   About
                 </Link>
               </li>
-              <div class="dropdownmenu">
+              <div className="dropdownmenu">
                 <a
                   href="/#"
                   style={{ cursor: "pointer" }}
