@@ -1,4 +1,4 @@
-// import { Carousel } from "../../components/slick";
+import { Carousel } from "../../components/slick";
 import { UnderFooter } from "../../components/underFooter";
 import "./style.css";
 
@@ -144,7 +144,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* <section className="p-5">
+      <section className="p-5">
         <div className="container">
           <div className="row">
             <div className="col-12">
@@ -152,7 +152,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
 
       <section
         id="section_sorteringssystemer"

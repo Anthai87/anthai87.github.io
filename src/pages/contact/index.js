@@ -76,24 +76,28 @@ export const Contact = () => {
                     novalidate
                   >
                     <input
+                      className="form-control"
                       type="text"
                       placeholder="Name"
                       name="user_name"
                       required
                     />
                     <input
+                      className="form-control"
                       type="text"
                       placeholder="Email"
                       name="user_email"
                       required
                     />
                     <input
+                      className="form-control"
                       type="text"
                       placeholder="Subject"
                       name="subject"
                       required
                     />
                     <textarea
+                      className="form-control"
                       placeholder="Message"
                       name="message"
                       required
