@@ -3,6 +3,7 @@ import { UnderFooter } from "../../components/underFooter";
 import "./style.css";
 import { useParams } from "react-router-dom";
 import data from "../../data/data.json";
+import { PathProductDetails } from "../../components/path";
 
 export const ProductDetails = () => {
   const { id } = useParams();
@@ -13,7 +14,8 @@ export const ProductDetails = () => {
 
   return (
     <>
-      <section id="section" className="single_product p-5">
+      <PathProductDetails />
+      <section id="section" className="single_product p-3">
         <div className="container">
           {singleProduct.map((item) => (
             <div className="single_product row mt-5">
@@ -65,7 +67,6 @@ export const ProductDetails = () => {
               </div>
 
               <div className="col-lg-6 col-md-12 col-12">
-                <h6>Home / Bag</h6>
                 <h3 className="py-4">Women's Fashion Bag</h3>
                 <h2>kr. {item.price}</h2>
                 <h4 className="mt-5 mb-5">Product Details</h4>

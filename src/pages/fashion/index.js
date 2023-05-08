@@ -14,7 +14,7 @@ export const Products = () => {
     <>
       <PathFashion />
       <section className="">
-        <div className="container mt-5 py-5">
+        <div className="container py-5">
           <div className="">
             <h2>Our Featured Products</h2>
             <p>
