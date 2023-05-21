@@ -1,5 +1,4 @@
 import { Carousel } from "../../components/slick";
-import { UnderFooter } from "../../components/underFooter";
 import "./style.css";
 
 const Home = () => {
@@ -338,7 +337,7 @@ const Home = () => {
 
       {/* INSTATGRAM */}
 
-      <section id="new" className="w-100">
+      <section id="new" className="w-100 py-5">
         <div className="row p-0 m-0">
           <div className="image col-lg-2 col-md-4 col-sm-4 p-0">
             <img
@@ -424,9 +423,6 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
-      <section className="">
-        <UnderFooter />
       </section>
     </>
   );

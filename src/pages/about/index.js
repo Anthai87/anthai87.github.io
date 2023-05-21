@@ -1,5 +1,4 @@
 import { PathAbout } from "../../components/path";
-import { UnderFooter } from "../../components/underFooter";
 import "./style.css";
 export function About() {
   return (
@@ -128,10 +127,6 @@ export function About() {
             </div>
           </div>
         </div>
-      </section>
-
-      <section className="">
-        <UnderFooter />
       </section>
     </>
   );

@@ -1,5 +1,4 @@
 import React from "react";
-import { UnderFooter } from "../../components/underFooter";
 import "./style.css";
 import { PathFashion } from "../../components/path";
 import { useSelector } from "react-redux";
@@ -13,7 +12,7 @@ export const Products = () => {
   return (
     <>
       <PathFashion />
-      <section className="">
+      <section id="itemId" className="">
         <div className="container py-5">
           <div className="">
             <h2>Our Featured Products</h2>
@@ -29,10 +28,6 @@ export const Products = () => {
             ))}
           </div>
         </div>
-      </section>
-
-      <section className="">
-        <UnderFooter />
       </section>
     </>
   );

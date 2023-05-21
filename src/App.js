@@ -8,6 +8,7 @@ import { NotFound } from "./pages/notfoundpage";
 import Home from "./pages/homePage";
 import { ProductDetails } from "./pages/singleProductDetails";
 import Navbar from "./components/navbar";
+import Footer from "./components/footer/index";
 import { useEffect } from "react";
 
 const ScrollToTop = () => {
@@ -37,6 +38,7 @@ function App() {
             <Route path="/zee_web/about" exact element={<About />} />
             <Route path="*" exact element={<NotFound />} />
           </Routes>
+          <Footer />
         </BrowserRouter>
       </div>
     </>

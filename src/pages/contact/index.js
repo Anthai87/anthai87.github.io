@@ -1,5 +1,4 @@
 import React, { useRef } from "react";
-import { UnderFooter } from "../../components/underFooter";
 import "./style.css";
 import { PathContact } from "../../components/path";
 import emailjs from "@emailjs/browser";
@@ -124,9 +123,6 @@ export const Contact = () => {
             </div>
           </div>
         </div>
-      </section>
-      <section className="">
-        <UnderFooter />
       </section>
     </>
   );

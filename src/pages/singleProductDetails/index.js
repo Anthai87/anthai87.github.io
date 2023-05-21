@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { UnderFooter } from "../../components/underFooter";
 import "./style.css";
 import { useParams } from "react-router-dom";
 import data from "../../data/data.json";
@@ -174,10 +173,6 @@ export const ProductDetails = () => {
             </div>
           </div>
         </div>
-      </section>
-
-      <section className="">
-        <UnderFooter />
       </section>
     </>
   );
