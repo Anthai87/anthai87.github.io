@@ -39,7 +39,7 @@ const Footer = () => {
           <h5 className="pb-2 text-uppercase">Quick Links</h5>
           <ul className="list-unstyled">
             <li>
-              <a href="#!">About</a>
+              <a href="http://localhost:3000/zee_web/about">About</a>
             </li>
             <li>
               <a href="#!">Blogs</a>
@@ -76,10 +76,10 @@ const Footer = () => {
             </button>
           </form>
           <div className="footer__social">
-            <a href="#!" className="me-4">
+            <a href="https://www.facebook.com/OpbrugGenbrug" className="me-4">
               <i className="fab fa-facebook-f"></i>
             </a>
-            <a href="#!" className="me-4">
+            <a href="https://www.instagram.com/zeecycled/" className="me-4">
               <i class="fab fa-instagram"></i>
             </a>
             <a href="#!" className="me-4">
