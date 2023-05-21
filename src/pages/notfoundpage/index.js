@@ -3,8 +3,8 @@ import "./style.css";
 
 export const NotFound = () => {
   return (
-    <div id="content" className="">
-      <div className=" container">
+    <div>
+      <div className="container">
         <section className="error-404 not-found">
           <p className="error-title">Error 404</p>
 
