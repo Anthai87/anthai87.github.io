@@ -157,7 +157,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <a
-                    class="dropdown-item"
+                    className="dropdown-item"
                     href="https://www.facebook.com/OpbrugGenbrug"
                   >
                     <i className="fab fa-facebook"></i>

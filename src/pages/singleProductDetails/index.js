@@ -125,7 +125,7 @@ export const ProductDetails = () => {
         </div>
       </section>
 
-      <section className="">
+      <section className="py-5">
         <div className="container text-center mt-5 py-5">
           <h2 className="fw-bolder">Related Products</h2>
         </div>
@@ -137,7 +137,7 @@ export const ProductDetails = () => {
               className="img-fluid mb-3"
             />
             <h5 className="p-name">Mulberry Shoulder Bag</h5>
-            <h5 className="p-price">kr. 1,600.00</h5>
+            <span className="p-price">kr. 1,600.00</span>
           </div>
           <div className="product text-center col-lg-3 col-md-4 col-12">
             <img
@@ -147,8 +147,7 @@ export const ProductDetails = () => {
             />
             <div className="p-desc">
               <h5 className="p-name">Mulberry Kjole</h5>
-              <h5 className="p-price">kr. 1,600.00</h5>
-              <h5 className="p-size">size 34</h5>
+              <span className="p-price">kr. 1,600.00</span>
             </div>
           </div>
           <div className="product text-center col-lg-3 col-md-4 col-12">
@@ -158,7 +157,7 @@ export const ProductDetails = () => {
               className="img-fluid mb-3"
             />
             <h5 className="p-name">Mulberry Shoulder Bag</h5>
-            <h5 className="p-price">kr. 1,600.00</h5>
+            <span className="p-price">kr. 1,600.00</span>
           </div>
           <div className="product text-center col-lg-3 col-md-4 col-12">
             <img
@@ -168,8 +167,7 @@ export const ProductDetails = () => {
             />
             <div className="p-desc">
               <h5 className="p-name">Mulberry Kjole</h5>
-              <h5 className="p-price">kr. 1,600.00</h5>
-              <h5 className="p-size">size 34</h5>
+              <span className="p-price">kr. 1,600.00</span>
             </div>
           </div>
         </div>
