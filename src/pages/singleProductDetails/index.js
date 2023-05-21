@@ -129,7 +129,7 @@ export const ProductDetails = () => {
         <div className="container text-center mt-5 py-5">
           <h2 className="fw-bolder">Related Products</h2>
         </div>
-        <div className="container row mx-auto">
+        <div className="container row mx-auto gy-5">
           <div className="product text-center col-lg-3 col-md-4 col-12">
             <img
               src="https://images.pexels.com/photos/1374910/pexels-photo-1374910.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"

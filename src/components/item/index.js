@@ -4,28 +4,6 @@ const Item = ({ item }) => {
   const navigate = useNavigate();
 
   return (
-    // <div
-    //   className="product text-center col-lg-3 col-md-4 col-12"
-    //   onClick={() => navigate(`/zee_web/product/details/${item.id}`)}
-    // >
-    //   <img
-    //     src={item.imageUrl}
-    //     alt=""
-    //     className="img-fluid mb-3"
-    //     key={item.id}
-    //   />
-    //   <div className="p-desc">
-    //     <h5 className="p-name" key={item.id}>
-    //       {item.brand}
-    //     </h5>
-    //     <h5 className="p-price" key={item.id}>
-    //       kr. {item.price}
-    //     </h5>
-    //     <h5 className="p-size" key={item.id}>
-    //       size {item.size}
-    //     </h5>
-    //   </div>
-    // </div>
     <div id="itemID" className="col-xl-3 col-lg-3 col-md-6 col-sm-6">
       <div
         className="single-new-arrival mb-50 text-center wow fadeInUp"
