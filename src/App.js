@@ -36,7 +36,7 @@ function App() {
             />
             <Route path="/zee_web/contact" exact element={<Contact />} />
             <Route path="/zee_web/about" exact element={<About />} />
-            <Route path="*" exact element={<NotFound />} />
+            <Route path="/*" exact element={<NotFound />} />
           </Routes>
           <Footer />
         </BrowserRouter>

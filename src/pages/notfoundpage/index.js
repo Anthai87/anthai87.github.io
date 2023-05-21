@@ -18,7 +18,7 @@ export const NotFound = () => {
             </p>
             <p>
               <a
-                href="http://localhost:3000"
+                href="http://localhost:3000/zee_web"
                 className="button large text-decoration-none"
               >
                 <span className="fa fab-arrows"></span>
