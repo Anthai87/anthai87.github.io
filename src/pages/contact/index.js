@@ -3,7 +3,7 @@ import "./style.css";
 import { PathContact } from "../../components/path";
 import emailjs from "@emailjs/browser";
 
-export const Contact = () => {
+const Contact = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -75,10 +75,6 @@ export const Contact = () => {
                     novalidate
                   >
                     <div>
-                      <label for="validationTooltip01" class="form-label">
-                        First name
-                      </label>
-
                       <input
                         className="form-control"
                         type="text"
@@ -136,3 +132,5 @@ export const Contact = () => {
     </>
   );
 };
+
+export default Contact;
