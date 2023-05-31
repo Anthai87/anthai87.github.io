@@ -5,9 +5,15 @@ import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 
 describe("Test the Contact Component", () => {
-  test("submit button should existence", async () => {
+  test("submit button should exist", async () => {
     render(<Contact />);
     const button = await screen.findByRole("button", { name: "send message" });
+    expect(button).toBeTruthy();
+  });
+  test("google maps should exist", async () => {
+    render(<Contact />);
+
+    expect(screen.getByTitle("google-maps")).toBeInTheDocument();
   });
 
   test("should be able to submit the form ", () => {
