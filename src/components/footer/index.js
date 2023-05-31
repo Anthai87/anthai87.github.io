@@ -80,10 +80,10 @@ const Footer = () => {
               <i className="fab fa-facebook-f"></i>
             </a>
             <a href="https://www.instagram.com/zeecycled/" className="me-4">
-              <i class="fab fa-instagram"></i>
+              <i className="fab fa-instagram"></i>
             </a>
             <a href="#!" className="me-4">
-              <i class="fab fa-linkedin"></i>
+              <i className="fab fa-linkedin"></i>
             </a>
             <a href="#!" className="me-4">
               <i className="fab fa-pinterest"></i>
