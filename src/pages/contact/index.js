@@ -74,13 +74,22 @@ export const Contact = () => {
                     className="needs-validation"
                     novalidate
                   >
-                    <input
-                      className="form-control"
-                      type="text"
-                      placeholder="Name"
-                      name="user_name"
-                      required
-                    />
+                    <div>
+                      <label for="validationTooltip01" class="form-label">
+                        First name
+                      </label>
+
+                      <input
+                        className="form-control"
+                        type="text"
+                        placeholder="Name"
+                        name="user_name"
+                        id="validationTooltip01"
+                        required
+                      />
+                      <div className="valid-tooltip">Looks good!</div>
+                    </div>
+
                     <input
                       className="form-control"
                       type="text"
