@@ -10,6 +10,7 @@ describe("Test the Contact Component", () => {
     const button = await screen.findByRole("button", { name: "send message" });
     expect(button).toBeTruthy();
   });
+
   test("google maps should exist", async () => {
     render(<Contact />);
 

@@ -69,10 +69,11 @@ const Contact = () => {
                   <h5>SEND MESSAGE</h5>
 
                   <form
+                    action=""
                     ref={form}
                     onSubmit={sendEmail}
                     className="needs-validation"
-                    novalidate
+                    noValidate
                   >
                     <div>
                       <input
@@ -83,7 +84,7 @@ const Contact = () => {
                         id="validationTooltip01"
                         required
                       />
-                      <div className="valid-tooltip">Looks good!</div>
+                      <div className="invalid-tooltip">Looks good!</div>
                     </div>
 
                     <input
@@ -119,9 +120,9 @@ const Contact = () => {
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2249.0407145975955!2d12.551376377696624!3d55.688279896958086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465253a97592cac7%3A0xc9a17b2dd775372e!2sTj%C3%B8rnegade%203%2C%202200%20K%C3%B8benhavn!5e0!3m2!1sda!2sdk!4v1682271023748!5m2!1sda!2sdk"
                   width="100%"
                   height="780"
-                  allowfullscreen=""
+                  allowFullScreen=""
                   loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"
+                  referrerPolicy="no-referrer-when-downgrade"
                   title="google-maps"
                 ></iframe>
               </div>
