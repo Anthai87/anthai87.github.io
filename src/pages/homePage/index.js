@@ -1,7 +1,9 @@
 import { Carousel } from "../../components/slick";
 import "./style.css";
+import { useNavigate } from "react-router-dom";
 
 const Home = () => {
+  const navigate = useNavigate();
   return (
     <>
       <div>
@@ -43,8 +45,13 @@ const Home = () => {
               <div className="carousel-caption">
                 <h5 className="animate__slideInDown">Shaping a new tomorrow</h5>
                 <p>
-                  Zeecycled believes in a brighter tomorrow providing new
-                  opportunities and possibilities for outfits
+                  At Zeecycled, we believe in the immense potential of every
+                  individual to make a positive impact on our planet. Together,
+                  we are shaping a new tomorrow, where sustainability takes
+                  center stage in our daily lives. By embracing the power of
+                  second hand, we unlock a world of possibilities that not only
+                  revolutionize our fashion choices but also contribute to
+                  building a greener future.
                 </p>
               </div>
             </div>
@@ -57,9 +64,16 @@ const Home = () => {
               />
               <div className="carousel-caption">
                 <h5 className="animate__fadeInDown">
-                  Buy and sell second hand
+                  Elevate Your Style, Empower the Planet
                 </h5>
-                <p>Find great new & second hand collections</p>
+                <p>
+                  Step into the World of Second Hand Fashion and Embrace a
+                  Sustainable Future! At our online marketplace, we curate a
+                  wide range of quality second hand products, meticulously
+                  chosen to inspire conscious shopping. Join us in redefining
+                  fashion with an eco-friendly mindset, where every purchase
+                  contributes to a greener tomorrow.
+                </p>
               </div>
             </div>
             <div className="carousel-item">
@@ -70,10 +84,10 @@ const Home = () => {
                 height="100%"
               />
               <div className="carousel-caption">
-                <h5 className="animate__fadeInDown">Stay trended</h5>
+                <h5 className="animate__fadeInDown">Recycling is an art</h5>
                 <p>
-                  Green focus is central in our work. Find second hand and be
-                  the new way of Fashioninsta
+                  Unleash Your Inner Artist and: Embrace the Art of Recycling in
+                  Fashion!{" "}
                 </p>
               </div>
             </div>
@@ -108,7 +122,7 @@ const Home = () => {
             <div className="col-md-6 col-lg-6">
               <div className="p-t-7 p-r-15 p-r-15-lg p-r-0-m">
                 <h1>
-                  Hero Title <span className="text-success">Fashion</span>
+                  Zeecycled <span className="text-success">Fashion</span>
                 </h1>
                 <p className="lead my-4">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -118,7 +132,11 @@ const Home = () => {
                   irure dolor in reprehenderit in voluptate velit esse cillum
                   dolore eu fugiat nulla pariatur.
                 </p>
-                <button className="btn btn-dark btn-lg" type="button">
+                <button
+                  className="btn btn-dark btn-lg"
+                  type="button"
+                  onClick={() => navigate(`/zee_web/products/`)}
+                >
                   Learn More
                 </button>
               </div>
@@ -186,7 +204,11 @@ const Home = () => {
             <br />
             Check Them Now
           </h1>
-          <button className="btn btn-success btn-lg" type="button">
+          <button
+            className="btn btn-success btn-lg"
+            type="button"
+            onClick={() => navigate(`/zee_web/products/`)}
+          >
             See More
           </button>
         </div>

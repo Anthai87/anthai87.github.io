@@ -9,8 +9,7 @@
 }
 
 .carousel-item {
-  /*height: 100vh;*/
-  min-height: 224px;
+  min-height: 100%;
 }
 
 .carousel-caption {
@@ -60,8 +59,11 @@
 }
 
 @media screen and (min-width: 992px) and (max-width: 3000px) {
+  .carousel-item {
+    height: 70vh;
+  }
   .carousel-caption {
-    bottom: 145px;
+    bottom: 205px;
   }
 }
 
