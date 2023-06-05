@@ -73,7 +73,6 @@ const Contact = () => {
                     ref={form}
                     onSubmit={sendEmail}
                     className="needs-validation"
-                    noValidate
                   >
                     <div>
                       <input
