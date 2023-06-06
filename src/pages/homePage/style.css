@@ -60,7 +60,7 @@
 
 @media screen and (min-width: 992px) and (max-width: 3000px) {
   .carousel-item {
-    height: 70vh;
+    height: 85vh;
   }
   .carousel-caption {
     bottom: 205px;
