@@ -1,15 +1,9 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
 import "./style.css";
 
 export const SlickCard = ({ item }) => {
-  const navigate = useNavigate();
   return (
-    <div
-      className="card border-0"
-      style={{ cursor: "pointer" }}
-      // onClick={() => navigate(`/zee_web/product/details/${item.id}`)}
-    >
+    <div className="card border-0" style={{ cursor: "pointer" }}>
       <div className="product-images">
         <img
           src={item.imageUrl[0]}
