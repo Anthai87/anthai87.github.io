@@ -43,7 +43,7 @@ const Home = () => {
                 height="100%"
               />
               <div className="carousel-caption">
-                <h5 className="animate__slideInDown">Shaping a new tomorrow</h5>
+                <h5>Shaping a new tomorrow</h5>
                 <p>
                   At Zeecycled, we believe in the immense potential of every
                   individual to make a positive impact on our planet. Together,
