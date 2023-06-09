@@ -63,9 +63,7 @@ const Home = () => {
                 height="100%"
               />
               <div className="carousel-caption">
-                <h5 className="animate__fadeInDown">
-                  Elevate Your Style, Empower the Planet
-                </h5>
+                <h5>Elevate Your Style, Empower the Planet</h5>
                 <p>
                   Step into the World of Second Hand Fashion and Embrace a
                   Sustainable Future! At our online marketplace, we curate a
@@ -84,7 +82,7 @@ const Home = () => {
                 height="100%"
               />
               <div className="carousel-caption">
-                <h5 className="animate__fadeInDown">Recycling is an art</h5>
+                <h5>Recycling is an art</h5>
                 <p>
                   Unleash Your Inner Artist and: Embrace the Art of Recycling in
                   Fashion!{" "}
