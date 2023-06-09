@@ -16,6 +16,7 @@ import Navbar from "./components/navbar";
 import Footer from "./components/footer/index";
 import { useEffect } from "react";
 import Contact from "./pages/contact";
+import SortingSystems from "./pages/sorting_systems";
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
@@ -40,6 +41,11 @@ function App() {
                 path="/zee_web/product/details/:id"
                 exact
                 element={<ProductDetails />}
+              />
+              <Route
+                path="/zee_web/sorting_systms"
+                exact
+                element={<SortingSystems />}
               />
               <Route path="/zee_web/contact" exact element={<Contact />} />
               <Route path="/zee_web/about" exact element={<About />} />

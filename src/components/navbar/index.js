@@ -36,8 +36,8 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link className="nav-link" to="#!">
-                  Sorteringsposer
+                <Link className="nav-link" to="/zee_web/sorting_systms">
+                  Sortering Bags
                 </Link>
               </li>
               <li>
@@ -119,8 +119,8 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link className="text-link" to="#!">
-                Sorteringsposer
+              <Link className="text-link" to="/zee_web/sorting_systms">
+                Sortering Bags
               </Link>
             </li>
             <li>

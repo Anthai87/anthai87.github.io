@@ -8,7 +8,7 @@ export const SlickCard = ({ item }) => {
     <div
       className="card border-0"
       style={{ cursor: "pointer" }}
-      onClick={() => navigate(`/zee_web/product/details/${item.id}`)}
+      // onClick={() => navigate(`/zee_web/product/details/${item.id}`)}
     >
       <div className="product-images">
         <img

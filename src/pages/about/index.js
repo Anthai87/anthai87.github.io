@@ -23,32 +23,32 @@ export function About() {
 
           <div className="elementor-element elementor-widget">
             <p className="p1 mb-4">
-              Zeecycled er en platform der er skabt med ønsket om at ændre den
-              nuværende brug-og-smid-væk kultur for at skabe et mere bæredygtigt
-              mindset hos den enkelte forbruger. Vores mission er at gøre det
-              nemmere for folk at købe og sælge overskydende- og genbrugstøj,
-              både for privatpersoner og virksomheder.
+              Zeecycled er en platform, der er designet med det formål at
+              transformere den eksisterende "brug-og-smid-væk" kultur og fremme
+              en mere bæredygtig tankegang hos individuelle forbrugere. Vores
+              mål er at lette processen med at købe og sælge overskydende og
+              genbrugstøj, både for enkeltpersoner og virksomheder.
             </p>
             <p className="p1 mb-4">
-              Zeecycled er en platform der er skabt med ønsket om at ændre den
-              nuværende brug-og-smid-væk kultur for at skabe et mere bæredygtigt
-              mindset hos den enkelte forbruger. Vores mission er at gøre det
-              nemmere for folk at købe og sælge overskydende- og genbrugstøj,
-              både for privatpersoner og virksomheder.
+              Zeecycled er en platform, der er designet med det formål at
+              transformere den eksisterende "brug-og-smid-væk" kultur og fremme
+              en mere bæredygtig tankegang hos individuelle forbrugere. Vores
+              mål er at lette processen med at købe og sælge overskydende og
+              genbrugstøj, både for enkeltpersoner og virksomheder.
             </p>
             <p className="p1 mb-4">
-              Zeecycled er en platform der er skabt med ønsket om at ændre den
-              nuværende brug-og-smid-væk kultur for at skabe et mere bæredygtigt
-              mindset hos den enkelte forbruger. Vores mission er at gøre det
-              nemmere for folk at købe og sælge overskydende- og genbrugstøj,
-              både for privatpersoner og virksomheder.
+              Zeecycled er en platform, der er designet med det formål at
+              transformere den eksisterende "brug-og-smid-væk" kultur og fremme
+              en mere bæredygtig tankegang hos individuelle forbrugere. Vores
+              mål er at lette processen med at købe og sælge overskydende og
+              genbrugstøj, både for enkeltpersoner og virksomheder.
             </p>
             <p className="p1 mb-4">
-              Zeecycled er en platform der er skabt med ønsket om at ændre den
-              nuværende brug-og-smid-væk kultur for at skabe et mere bæredygtigt
-              mindset hos den enkelte forbruger. Vores mission er at gøre det
-              nemmere for folk at købe og sælge overskydende- og genbrugstøj,
-              både for privatpersoner og virksomheder.
+              Zeecycled er en platform, der er designet med det formål at
+              transformere den eksisterende "brug-og-smid-væk" kultur og fremme
+              en mere bæredygtig tankegang hos individuelle forbrugere. Vores
+              mål er at lette processen med at købe og sælge overskydende og
+              genbrugstøj, både for enkeltpersoner og virksomheder.
             </p>
           </div>
         </div>
